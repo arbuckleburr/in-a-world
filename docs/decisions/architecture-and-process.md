@@ -20,8 +20,10 @@ Status: active
 - Why: simplest to host on GitHub Pages and to extend.
 
 ## 2026-10-17 — Host on GitHub Pages
-Status: active
+Status: partly superseded
 - Deployment not yet set up.
+> Deployment is done; see "Deployed on GitHub Pages" below.
+
 
 ## 2026-10-17 — Own Tracery-style expander instead of vendoring Tracery
 Status: active

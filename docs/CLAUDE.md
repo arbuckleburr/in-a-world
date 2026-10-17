@@ -4,9 +4,11 @@ Read this first, then follow the routing table.
 
 ## Concept
 
-"In a World" is a static web app that generates log lines for science
-fiction and fantasy movies. Generation is grammar-based (Tracery-style).
-Data lives in genre packs so entries and genres can be added over time.
+"In a World" is a static web app that generates movie log lines across
+genres (currently nine packs: science fiction, fantasy, noir, period drama,
+romantic comedy, spy thriller, horror). Generation is grammar-based
+(Tracery-style). Data lives in genre packs so entries and genres can be added
+over time. Live: https://arbuckleburr.github.io/in-a-world/
 
 ## Reading order
 
@@ -34,7 +36,7 @@ Data lives in genre packs so entries and genres can be added over time.
 
 ## v1 scope
 
-- Genre / sub-genre picker (sci-fi, fantasy, mashups)
+- Genre picker: Random (all packs, default) plus each pack, alphabetical
 - Lock and reroll individual slots
 - Favorites (saved locally) and copy to clipboard
 
@@ -44,6 +46,19 @@ Data lives in genre packs so entries and genres can be added over time.
 - Seeded / repeatable output
 - LLM generation
 - User-editable lists in the UI
+
+## Adding content
+
+- More entries: append strings to a slot array in `packs/<genre>.json`.
+- New genre: new pack file + one entry `{file, name, genre}` in `packs/manifest.json`; the picker sorts and lists it automatically.
+- Slot grammar contract (entries must read correctly inside every template):
+  - protagonist / antagonist: noun phrase with an article ("a disgraced fleet admiral")
+  - flaw: participial or relative phrase ("haunted by...", "who trusts no one")
+  - event: present-tense clause, no leading "when" ("a ghost ship drifts into port")
+  - goal: bare infinitive, no time words (before/until/when/while/after)
+  - stakes: clause, no "before"
+  - keep pronouns neutral (they/their); `#rule#` values after a/an must not change the article
+- After editing a pack, render every template against every pack and check for leftover `{}`/`#` (see standing-rules).
 
 ## Working agreements
 

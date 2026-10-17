@@ -1,9 +1,11 @@
 # Decisions — UI and Interaction
 
 ## 2026-10-17 — v1 interactions
-Status: active
+Status: partly superseded
 - Genre / sub-genre picker.
 - Lock and reroll individual slots (e.g. keep protagonist, reroll antagonist).
+> Picker is now Random plus nine packs, no sub-genre layer; see "Random plus individual packs only".
+
 
 ## 2026-10-17 — Lock persists across genre change
 Status: active
@@ -16,15 +18,19 @@ Status: active
 - Why: developer could not find the lock; the slot list below the fold was not discoverable.
 
 ## 2026-10-17 — Movie-trailer aesthetic, dark only
-Status: active
+Status: partly superseded
 - Near-black bg with warm spotlight, Bebas Neue titles, Libre Baskerville italic log line in a letterboxed "screen", gold accent.
 - Fonts via Google Fonts link with system fallbacks (Impact/Georgia).
 - No light theme; supersedes any earlier light-theme plan. Button renamed "Roll the film".
+> Log line typeface changed twice; current: Libre Baskerville, non-italic. See "Log line back to serif".
+
 
 ## 2026-10-17 — Log line and favorites in sans-serif, not italic
-Status: active
+Status: superseded
 - Inter (Google Fonts, system-ui fallback), weight 500. Titles stay Bebas Neue; other text stays Libre Baskerville.
 - Why: developer found the italic serif hard to read. Supersedes the italic serif log line in the trailer-aesthetic entry (partly superseded).
+> Reverted by "Log line back to serif (non-italic) with quote marks behind".
+
 
 ## 2026-10-17 — Log line back to serif (non-italic) with quote marks behind
 Status: active

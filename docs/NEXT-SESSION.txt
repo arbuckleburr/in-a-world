@@ -1,7 +1,15 @@
 NEXT SESSION
 
 Where we left off:
-  (nothing yet)
+  v1 is built, pushed, and live on GitHub Pages
+  (https://arbuckleburr.github.io/in-a-world/). Nine genre packs, Random default,
+  lock/reroll, favorites, copy, movie-trailer styling. Docs were audited and
+  refreshed and committed this session.
 
 Next task:
-  (nothing yet)
+  None set. Developer to choose. Candidates:
+  - Work through TESTING-OWED.md (Copy in own browser, phone layout).
+  - More entries or more genre packs (see "Adding content" in docs/CLAUDE.md).
+  - Out of scope so far: share links, seeded output, in-UI list editing.
+
+See TESTING-OWED.md for pending live checks.
