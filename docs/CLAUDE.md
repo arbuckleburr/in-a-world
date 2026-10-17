@@ -55,4 +55,4 @@ Data lives in genre packs so entries and genres can be added over time.
 - Vanilla ES modules, no build step; serve over HTTP (`python3 -m http.server`).
 - `js/grammar.js` expander → `js/generator.js` slot/template logic → `js/app.js` UI.
 - Data in `packs/` (manifest + one JSON per genre). See `decisions/grammar-and-data.md`.
-- Deploy target: GitHub Pages.
+- Deployed on GitHub Pages: https://arbuckleburr.github.io/in-a-world/

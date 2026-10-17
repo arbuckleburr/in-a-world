@@ -19,5 +19,5 @@
 
 ## Not built
 
-- GitHub Pages deployment
+- (GitHub Pages deployed)
 - Share links, seeding, in-UI list editing (out of scope v1)

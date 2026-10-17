@@ -28,3 +28,8 @@ Status: active
 - js/grammar.js: #symbol# expansion + .capitalize, depth-capped.
 - Why: needs are tiny; avoids downloading third-party code.
 - Deviates from the "use Tracery itself" proposal the developer approved. Revisit if richer Tracery features are wanted.
+
+## 2026-10-17 — Deployed on GitHub Pages
+Status: active
+- Live at https://arbuckleburr.github.io/in-a-world/ (set up by developer from main).
+- Supersedes "Deployment not yet set up" under the Host on GitHub Pages entry. Push to main redeploys.

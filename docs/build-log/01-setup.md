@@ -32,3 +32,4 @@
 - picker: Anything→Random; Any Sci-Fi/Any Fantasy removed; manifest genres labels removed; noir event 'found near #place#'
 - added spy-thriller + horror packs (9 packs total); tested: node render check; horror goal 'before' fixed in JSON
 - picker: packs sorted alphabetically in app.js, Random first; verified in browser pane
+- live: GitHub Pages site verified (all files 200, 10 picker options, no console errors); Copy over https is now a secure context
