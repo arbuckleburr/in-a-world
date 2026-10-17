@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>In a World</title>
+  <meta name="color-scheme" content="dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <header class="title-card">
+      <p class="eyebrow">A log line generator for the movies</p>
+      <h1>In a World<span aria-hidden="true">&hellip;</span></h1>
+    </header>
+
+    <div class="controls">
+      <label for="genre">Genre</label>
+      <select id="genre"></select>
+      <button id="generate" type="button" class="primary">Roll the film</button>
+    </div>
+
+    <section class="screen" aria-live="polite">
+      <p id="logline" class="logline"></p>
+    </section>
+    <p class="hint">Click a highlighted phrase to lock it. Locked phrases survive a new roll.</p>
+    <div class="actions">
+      <button id="copy" type="button">Copy</button>
+      <button id="favorite" type="button">Save to favorites</button>
+      <span id="status" role="status"></span>
+    </div>
+
+    <section>
+      <h2>Cast &amp; plot</h2>
+      <ul id="slots" class="slots"></ul>
+    </section>
+
+    <section>
+      <h2>Favorites</h2>
+      <p id="no-favorites" class="muted">Nothing saved yet.</p>
+      <ul id="favorites" class="favorites"></ul>
+    </section>
+  </main>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

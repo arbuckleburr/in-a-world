@@ -1,0 +1,49 @@
+{
+  "packs": [
+    {
+      "file": "space-opera.json",
+      "name": "Space Opera",
+      "genre": "scifi"
+    },
+    {
+      "file": "cyberpunk.json",
+      "name": "Cyberpunk",
+      "genre": "scifi"
+    },
+    {
+      "file": "high-fantasy.json",
+      "name": "High Fantasy",
+      "genre": "fantasy"
+    },
+    {
+      "file": "dark-fantasy.json",
+      "name": "Dark Fantasy",
+      "genre": "fantasy"
+    },
+    {
+      "file": "noir.json",
+      "name": "Noir",
+      "genre": "noir"
+    },
+    {
+      "file": "english-period-drama.json",
+      "name": "English Period Drama",
+      "genre": "period"
+    },
+    {
+      "file": "romantic-comedy.json",
+      "name": "Romantic Comedy",
+      "genre": "romcom"
+    },
+    {
+      "file": "spy-thriller.json",
+      "name": "Spy Thriller",
+      "genre": "thriller"
+    },
+    {
+      "file": "horror.json",
+      "name": "Horror",
+      "genre": "horror"
+    }
+  ]
+}

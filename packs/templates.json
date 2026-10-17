@@ -1,0 +1,14 @@
+{
+  "templates": [
+    "when {event}, {protagonist}, {flaw}, must {goal} and stop {antagonist} before {stakes}.",
+    "hunted by {antagonist}, {protagonist}, {flaw}, has one chance to {goal} before {stakes}, just as {event}.",
+    "{protagonist}, {flaw}, must {goal} when {event}, or {antagonist} will make sure {stakes}.",
+    "when {event}, {antagonist} grows stronger, and only {protagonist}, {flaw}, can {goal} before {stakes}.",
+    "{protagonist}, {flaw}, never wanted to {goal}. But the moment {event}, it's that or watch {antagonist} win as {stakes}.",
+    "to {goal} before {stakes}, {protagonist}, {flaw}, must face {antagonist} the moment {event}.",
+    "{event}, and {antagonist} is closing in. {protagonist}, {flaw}, has one choice: {goal}, or watch as {stakes}.",
+    "{antagonist} has waited a long time for this, and now {event}. Only {protagonist}, {flaw}, can {goal} before {stakes}.",
+    "{protagonist}, {flaw}, is the last hope to {goal}. But {antagonist} is already moving, {event}, and if they fail, {stakes}.",
+    "{protagonist}, {flaw}, gets one impossible mission when {event}: {goal} and stop {antagonist}, or {stakes}."
+  ]
+}
